@@ -49,8 +49,8 @@ bot.on("message", message => {
                 //if(args[0] != __dirname + "txt") return message.reply("Couldnt found: " + args[0] + " in our Database!")
 
                 const embed = {
-                    title: "Out of Stock!",
-                    description: "The Service that you requested is currently Out of Stock!",
+                    title: "Stok Yok!",
+                    description: "Malesef stoklarımız bitti :(",
                     color: 0xff033d,
                     timestamp: new Date(),
                     footer: {
@@ -112,12 +112,12 @@ bot.on("message", message => {
                                 }
                             });
                         } else {
-                            message.channel.send("Out of Stock!");
+                            message.channel.send("Stok Yok!");
                         }
                     } else {
                         const embed = {
-                            title: "Service Not found!",
-                            description: "The requested Service could not be found!",
+                            title: "Servis Bulunamadı!",
+                            description: "Böyle bir servis bulunamadı",
                             color: 0xff033d,
                             timestamp: new Date(),
                             footer: {
