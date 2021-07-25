@@ -106,7 +106,7 @@ bot.on("message", message => {
                                 generated.add(message.author.id);
                                 setTimeout(() => {
                                     generated.delete(message.author.id);
-                                }, 86400000); // 86400000 = 24 H , 150000 = 15 Min
+                                }, 0); // 86400000 = 24 H , 150000 = 15 Min
                                 if (err) {
                                     console.log(err);
                                 }
