@@ -263,8 +263,8 @@ bot.on("message", message => {
             fs.writeFile(filePath, 'Syex:Syex', function (err) {
                 if (err) throw err;
                 const embed = {
-                    title: "Created Service!",
-                    description: "Successfully created Service " + args[0] + "!",
+                    title: "Servis Oluşturuldu!",
+                    description: "Başarıyla Servis Oluşturuldu " + args[0] + "!",
                     color: 0xff033d,
                     timestamp: new Date(),
                     footer: {
@@ -317,10 +317,10 @@ bot.on("message", message => {
                 return message.channel.send({ embed });
             }
             else {
-            message.channel.send("@everyone Service " + args[0] + " has been restocked by " + "<@" + message.author.id +">");
+            message.channel.send(" " + args[0] + " Stokları Yenilendi Yenileyen :arrow_forward: " + "<@" + message.author.id +">");
             }
         }
     }
 });
 
-bot.login(config.token);
+bot.login(process.env.TOKEN);
