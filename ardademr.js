@@ -1,6 +1,7 @@
 const Discord = require("discord.js");
 const bot = new Discord.Client();
 const config = require("./config.json");
+let cooldown = config['cooldown']
 const prefix = config.prefix;
 var fs = require("fs");
 var lineReader = require("line-reader");
@@ -54,12 +55,12 @@ bot.on("message", message => {
                     timestamp: new Date(),
                     footer: {
                         icon_url:
-                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/Syex.png",
+                            "https://cdn.discordapp.com/emojis/830745640643330048.gif?v=1",
                         text: "Developed by BatuSyex#1974"
                     },
                     thumbnail: {
                         url:
-                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/Syex.png"
+                            "https://cdn.discordapp.com/emojis/830745640643330048.gif?v=1"
                     },
                     author: {
                         name: "Syex Account Generator Bot",
@@ -81,18 +82,18 @@ bot.on("message", message => {
                             data = data.substr(position + 1);
                             fs.writeFile(filePath, data, function (err) {
                                 const embed = {
-                                    title: "Hesap Oluşturuldu!",
-                                    description: "İstediğin hizmet dm kutuna gönderildi!",
+                                    title: "Account Generated!",
+                                    description: "Account of your requested Service has been Sent as a DM!",
                                     color: 0xff033d,
                                     timestamp: new Date(),
                                     footer: {
                                         icon_url:
-                                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/Syex.png",
+                                            "https://cdn.discordapp.com/emojis/830745640643330048.gif?v=1",
                                         text: "Developed by BatuSyex#1974"
                                     },
                                     thumbnail: {
                                         url:
-                                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/Syex.png"
+                                            "https://cdn.discordapp.com/emojis/830745640643330048.gif?v=1"
                                     },
                                     author: {
                                         name: "Syex Account Generator Bot",
@@ -121,12 +122,12 @@ bot.on("message", message => {
                             timestamp: new Date(),
                             footer: {
                                 icon_url:
-                                    "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/Syex.png",
+                                    "https://cdn.discordapp.com/emojis/830745640643330048.gif?v=1",
                                 text: "Developed by BatuSyex#1974"
                             },
                             thumbnail: {
                                 url:
-                                    "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/Syex.png"
+                                    "https://cdn.discordapp.com/emojis/830745640643330048.gif?v=1"
                             },
                             author: {
                                 name: "Syex Account Generator Bot",
@@ -150,12 +151,12 @@ bot.on("message", message => {
                     timestamp: new Date(),
                     footer: {
                         icon_url:
-                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/Syex.png",
+                            "https://cdn.discordapp.com/emojis/830745640643330048.gif?v=1",
                         text: "Developed by BatuSyex#1974"
                     },
                     thumbnail: {
                         url:
-                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/Syex.png"
+                            "https://cdn.discordapp.com/emojis/830745640643330048.gif?v=1"
                     },
                     author: {
                         name: "Syex Account Generator Bot",
@@ -174,40 +175,40 @@ bot.on("message", message => {
                     title: 'Syex Account Generator Bot',
                     url: 'https://discord.gg/syex',
                     author: {
-                        name: 'Command list',
-                        //icon_url: 'https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/Syex.png',
+                        name: 'Komut Listesi',
+                        //icon_url: 'https://cdn.discordapp.com/emojis/830745640643330048.gif?v=1',
                         url: 'https://discord.gg/syex',
                     },
-                    description: '**This is a List of all Commands**',
+                    description: '**Bütün Komutların Listesi**',
                     thumbnail: {
-                        url: 'https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/Syex.png',
+                        url: 'https://cdn.discordapp.com/emojis/830745640643330048.gif?v=1',
                     },
                     fields: [
                         {
-                            name: 'Generate Accounts',
-                            value: 'Usage: /gen <Service Name>',
+                            name: 'Hesap Üret',
+                            value: 'Kullanım: /gen <Servis İsmi>',
                         },
                         {
-                            name: 'Create Service',
-                            value: 'Usage: /create <Service Name>',
+                            name: 'Servis Üret',
+                            value: 'Kullanım: /create <Servis İsmi>',
                         },
                         {
-                            name: 'Restock Service',
-                            value: 'Usage: /restock <ServiceName>',
+                            name: 'Stok Yenile',
+                            value: 'Kullanım: /restock <Servis İsmi>',
                         },
                         {
-                            name: 'Add Accounts',
-                            value: 'Usage: /add <user:pass> <ServiceName>',
+                            name: 'Hesap Ekle',
+                            value: 'Kullanım: /add <user:pass> <Servis İsmi>',
                         },
                         {
-                            name: 'Show Stats of Syex Bot',
-                            value: 'Usage: /stats',
+                            name: 'Botun statslarını gösterir',
+                            value: 'Kullanım: /stats',
                         },
                     ],
                     timestamp: new Date(),
                     footer: {
                         text: 'Developed by BatuSyex#1974',
-                        icon_url: 'https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/Syex.png',
+                        icon_url: 'https://cdn.discordapp.com/emojis/830745640643330048.gif?v=1',
                     },
                 };
                 message.channel.send({ embed });
@@ -233,12 +234,12 @@ bot.on("message", message => {
                     timestamp: new Date(),
                     footer: {
                         icon_url:
-                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/Syex.png",
+                            "https://cdn.discordapp.com/emojis/830745640643330048.gif?v=1",
                         text: "Developed by BatuSyex#1974"
                     },
                     thumbnail: {
                         url:
-                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/Syex.png"
+                            "https://cdn.discordapp.com/emojis/830745640643330048.gif?v=1"
                     },
                     author: {
                         name: "Syex Account Generator Bot",
@@ -268,12 +269,12 @@ bot.on("message", message => {
                     timestamp: new Date(),
                     footer: {
                         icon_url:
-                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/Syex.png",
+                            "https://cdn.discordapp.com/emojis/830745640643330048.gif?v=1",
                         text: "Developed by BatuSyex#1974"
                     },
                     thumbnail: {
                         url:
-                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/Syex.png"
+                            "https://cdn.discordapp.com/emojis/830745640643330048.gif?v=1"
                     },
                     author: {
                         name: "Syex Account Generator Bot",
@@ -293,12 +294,12 @@ bot.on("message", message => {
                 timestamp: new Date(),
                 footer: {
                     icon_url:
-                        "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/Syex.png",
+                        "https://cdn.discordapp.com/emojis/830745640643330048.gif?v=1",
                     text: "Developed by BatuSyex#1974"
                 },
                 thumbnail: {
                     url:
-                        "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/Syex.png"
+                        "https://cdn.discordapp.com/emojis/830745640643330048.gif?v=1"
                 },
                 author: {
                     name: "Syex Account Generator Bot",
