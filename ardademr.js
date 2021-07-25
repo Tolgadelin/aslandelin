@@ -1,234 +1,325 @@
 const Discord = require("discord.js");
 const bot = new Discord.Client();
-const fs = require('fs')	
-let settings = JSON.parse(fs.readFileSync(__dirname+"/config.json"));	
-let prefix = settings['prefix'];	
-let cooldown = settings['cooldown']	
-const generated = new Set();	
+const config = require("./config.json");
+const prefix = config.prefix;
+var fs = require("fs");
+var lineReader = require("line-reader");
+var async = require("async");
+const firstline = require("firstline");
+const generated = new Set();
+var os = require("os");
+
+var express = require('express');
+var app = express();
+
+app.set('port', (process.env.PORT || 5000));
+
+app.get('/', function (request, response) {
+    var result = 'App is running'
+    response.send(result);
+}).listen(app.get('port'), function () {
+    console.log('App is running, server is listening on port ', app.get('port'));
+});
+bot.on("ready", () => {
+    console.log(`Logged in as ${bot.user.tag}!`);
+});
+
+bot.on("message", message => {
+    if (message.channel.id === config.botChannel) { 
+        if (message.author.bot) return;
+        var command = message.content
+            .toLowerCase()
+            .slice(prefix.length)
+            .split(" ")[0];
+
+        if (command === "gen") {
+            if (generated.has(message.author.id)) {
+                message.channel.send(
+                    "You have a Cool Down of 24 Hours! - " +
+                    message.author
+                );
+            } else {
+                let messageArray = message.content.split(" ");
+                let args = messageArray.slice(1);
+                if (!args[0])
+                    return message.reply("Please provide a Service!");
+                var fs = require("fs");
+                const filePath = __dirname + "/" + args[0] + ".txt";
+                //if(args[0] != __dirname + "txt") return message.reply("Couldnt found: " + args[0] + " in our Database!")
+
+                const embed = {
+                    title: "Out of Stock!",
+                    description: "The Service that you requested is currently Out of Stock!",
+                    color: 0xff033d,
+                    timestamp: new Date(),
+                    footer: {
+                        icon_url:
+                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png",
+                        text: "Developed by Arathon#4955"
+                    },
+                    thumbnail: {
+                        url:
+                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png"
+                    },
+                    author: {
+                        name: "AraCore Account Generator Bot",
+                        url: "https://discord.gg/xF9KxAU",
+                        icon_url: bot.displayAvatarURL
+                    },
+                    fields: []
+                };
+
+                fs.readFile(filePath, function (err, data) {
+                    if (!err) {
+                        data = data.toString();
+                        var position = data.toString().indexOf("\n");
+                        var firstLine = data.split("\n")[0];
+                        if(position == -1)
+                        return message.channel.send({ embed });
+                        message.author.send(firstLine);
+                        if (position != -1) {
+                            data = data.substr(position + 1);
+                            fs.writeFile(filePath, data, function (err) {
+                                const embed = {
+                                    title: "Account Generated!",
+                                    description: "Account of your requested Service has been Sent as a DM!",
+                                    color: 0xff033d,
+                                    timestamp: new Date(),
+                                    footer: {
+                                        icon_url:
+                                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png",
+                                        text: "Developed by Arathon#4955"
+                                    },
+                                    thumbnail: {
+                                        url:
+                                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png"
+                                    },
+                                    author: {
+                                        name: "AraCore Account Generator Bot",
+                                        url: "https://discord.gg/xF9KxAU",
+                                        icon_url: bot.displayAvatarURL
+                                    },
+                                    fields: []
+                                };
+                                message.channel.send({ embed });
+                                generated.add(message.author.id);
+                                setTimeout(() => {
+                                    generated.delete(message.author.id);
+                                }, 86400000); // 86400000 = 24 H , 150000 = 15 Min
+                                if (err) {
+                                    console.log(err);
+                                }
+                            });
+                        } else {
+                            message.channel.send("Out of Stock!");
+                        }
+                    } else {
+                        const embed = {
+                            title: "Service Not found!",
+                            description: "The requested Service could not be found!",
+                            color: 0xff033d,
+                            timestamp: new Date(),
+                            footer: {
+                                icon_url:
+                                    "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png",
+                                text: "Developed by Arathon#4955"
+                            },
+                            thumbnail: {
+                                url:
+                                    "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png"
+                            },
+                            author: {
+                                name: "AraCore Account Generator Bot",
+                                url: "https://discord.gg/xF9KxAU",
+                                icon_url: bot.displayAvatarURL
+                            },
+                            fields: []
+                        };
+                        message.channel.send({ embed });
+                        return;
+                    }
+                });
+            }
+        }
+        else
+            if (command === "stats") {
+                const embed = {
+                    title: "Stats",
+                    description: `Total Users: ${bot.users.size}`,
+                    color: 0xff033d,
+                    timestamp: new Date(),
+                    footer: {
+                        icon_url:
+                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png",
+                        text: "Developed by Arathon#4955"
+                    },
+                    thumbnail: {
+                        url:
+                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png"
+                    },
+                    author: {
+                        name: "AraCore Account Generator Bot",
+                        url: "https://discord.gg/xF9KxAU",
+                        icon_url: bot.displayAvatarURL
+                    },
+                    fields: []
+                };
+                message.channel.send({ embed });
+            }
+        
+            if (command === "help") {
+
+                const embed = {
+                    color: 0xff033d,
+                    title: 'AraCore Account Generator Bot',
+                    url: 'https://discord.gg/xF9KxAU',
+                    author: {
+                        name: 'Command list',
+                        //icon_url: 'https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png',
+                        url: 'https://discord.gg/xF9KxAU',
+                    },
+                    description: '**This is a List of all Commands**',
+                    thumbnail: {
+                        url: 'https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png',
+                    },
+                    fields: [
+                        {
+                            name: 'Generate Accounts',
+                            value: 'Usage: /gen <Service Name>',
+                        },
+                        {
+                            name: 'Create Service',
+                            value: 'Usage: /create <Service Name>',
+                        },
+                        {
+                            name: 'Restock Service',
+                            value: 'Usage: /restock <ServiceName>',
+                        },
+                        {
+                            name: 'Add Accounts',
+                            value: 'Usage: /add <user:pass> <ServiceName>',
+                        },
+                        {
+                            name: 'Show Stats of AraCore Bot',
+                            value: 'Usage: /stats',
+                        },
+                    ],
+                    timestamp: new Date(),
+                    footer: {
+                        text: 'Developed by Arathon#4955',
+                        icon_url: 'https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png',
+                    },
+                };
+                message.channel.send({ embed });
+            }
+
+        if (command === "add") {
+            if (!message.member.hasPermission("ADMINISTRATOR"))
+                return message.reply("You dont have Permissions to do that!");
+            var fs = require("fs");
+            let messageArray = message.content.split(" ");
+            let args = messageArray.slice(1);
+            var account = args[0]
+            var service = args[1]
+            if(!account) return message.reply("Provide a Formated Account String first!")
+            if(!service) return message.reply("Provide a Service first!")
+            const filePath = __dirname + "/" + args[1] + ".txt";
+            fs.appendFile(filePath, os.EOL + args[0], function (err) {
+                if (err) return console.log(err);
+                const embed = {
+                    title: "Account added!",
+                    description: "Successfully added Account to " + service + "!",
+                    color: 0xff033d,
+                    timestamp: new Date(),
+                    footer: {
+                        icon_url:
+                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png",
+                        text: "Developed by Arathon#4955"
+                    },
+                    thumbnail: {
+                        url:
+                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png"
+                    },
+                    author: {
+                        name: "AraCore Account Generator Bot",
+                        url: "https://discord.gg/xF9KxAU",
+                        icon_url: bot.displayAvatarURL
+                    },
+                    fields: []
+                };
+                message.channel.send({ embed });
+            });
 
 
-bot.on("ready", () => {	
-    console.log(`Logged in as ${bot.user.tag}!`);	
-    console.log("prefix is",prefix,"\nCooldown is",cooldown)	
-});	
+        }
+        if (command === "create") {
+            if (!message.member.hasPermission("ADMINISTRATOR"))
+                return message.reply("You dont have Permissions to do that!");
+            var fs = require("fs");
+            let messageArray = message.content.split(" ");
+            let args = messageArray.slice(1);
+            const filePath = __dirname + "/" + args[0] + ".txt";
+            fs.writeFile(filePath, 'AraCore:AraCore', function (err) {
+                if (err) throw err;
+                const embed = {
+                    title: "Created Service!",
+                    description: "Successfully created Service " + args[0] + "!",
+                    color: 0xff033d,
+                    timestamp: new Date(),
+                    footer: {
+                        icon_url:
+                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png",
+                        text: "Developed by Arathon#4955"
+                    },
+                    thumbnail: {
+                        url:
+                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png"
+                    },
+                    author: {
+                        name: "AraCore Account Generator Bot",
+                        url: "https://discord.gg/xF9KxAU",
+                        icon_url: bot.displayAvatarURL
+                    },
+                    fields: []
+                };
+                message.channel.send({ embed });
+            });
+        }
+        if (command === "restock") {
+            const embed = {
+                title: "Provide Service!",
+                description: "Please Provide the Name of the Restocked Service!",
+                color: 0xff033d,
+                timestamp: new Date(),
+                footer: {
+                    icon_url:
+                        "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png",
+                    text: "Developed by Arathon#4955"
+                },
+                thumbnail: {
+                    url:
+                        "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png"
+                },
+                author: {
+                    name: "AraCore Account Generator Bot",
+                    url: "https://discord.gg/xF9KxAU",
+                    icon_url: bot.displayAvatarURL
+                },
+                fields: []
+            };
+            let messageArray = message.content.split(" ");
+            let args = messageArray.slice(1);
+            if (!message.member.hasPermission("ADMINISTRATOR"))
+                return message.reply("You dont have Permissions to do that!");
+            if (!args[0])
+            {
+                return message.channel.send({ embed });
+            }
+            else {
+            message.channel.send("@everyone Service " + args[0] + " has been restocked by " + "<@" + message.author.id +">");
+            }
+        }
+    }
+});
 
-bot.on("message", async message => {	
-    prefix = settings['prefix'];	
-    cooldown = settings['cooldown']	
-    if (message.author.bot) return;	
-    var command = message.content	
-    .toLowerCase()	
-    .slice(prefix.length)	
-    .split(" ")[0];	
-
-    if (command === "gen") {	
-        if(message.channel.id !== "868912148540170263") return message.channel.send("This command can be runned only in the generate channel")	
-
-        if (generated.has(message.author.id)) {	
-            message.channel.send("Wait before generating another account!. - " + message.author);	
-        } else {	
-
-            let messageArray = message.content.split(" ");	
-            let args = messageArray.slice(1);	
-            if (!args[0]) return message.reply("Please, specify the service you want!");	
-            let data;	
-            try{	
-                data = fs.readFileSync(__dirname + "/" + args[0].toLowerCase() + ".json")	
-
-            } catch{	
-                return message.reply(args[0].toLowerCase()+' service do not exists')  	
-            } 	
-            let account = JSON.parse(data)	
-                if (account.length <= 0) return message.reply("There isn't any account avaible for that service")	
-                const embed = {	
-                    title: "Account Generated!",	
-                    description: "Check your dm for the account's information!",	
-                    color: 8519796,	
-                    timestamp: "2019-04-04T14:16:26.398Z",	
-                    footer: {	
-                        icon_url:	
-                            "https://cdn.discordapp.com/avatars/530778425540083723/7a05e4dd16825d47b6cdfb02b92d26a5.png",	
-                        text: "Buy discord bots from Silvano#1337"	
-                    },	
-                    thumbnail: {	
-                        url:	
-                            "http://www.compartosanita.it/wp-content/uploads/2019/02/right.png"	
-                    },	
-                    author: {	
-                        name: "Account Generator",	
-                        url: "https://discordapp.com",	
-                        icon_url: bot.displayAvatarURL	
-                    },	
-                    fields: []	
-                };	
-
-                await message.channel.send({ embed });	
-                await generated.add(message.author.id);	
-                await message.author.send({embed: {	
-                    "title": "Account information",	
-                    "color": 1127848,	
-                    "fields": [	
-                      {	
-                        "name": "Username/Email",	
-                        "value": account[0].email	
-                      },	
-                      {	
-                        "name": "Password",	
-                        "value": account[0].password	
-                      }	
-                    ]	
-                  }	
-                })	
-                await message.author.send("copy-paste: "+account[0].email+":"+account[0].password)	
-                account.splice(0,1)	
-                console.log(account)	
-                fs.writeFileSync(__dirname + "/" + args[0] + ".json", JSON.stringify(account));	
-                setTimeout(() => {	
-                    generated.delete(message.author.id);	
-                }, cooldown);	
-        }	
-    }	
-
-    if (command === "check") {	
-        let messageArray = message.content.split(" ");	
-        let args = messageArray.slice(1);	
-        let data;	
-        if (!args[0])	
-            return message.reply("Please, specify the service you want!");	
-        try{	
-            data = JSON.parse(fs.readFileSync(__dirname + "/" + args[0] + ".json"))	
-            message.channel.send("There are "+data.length+" accounts in "+args[0])	
-
-        } catch {	
-            return message.reply('That service do not exists')  	
-        } 	
-    }	
-
-    if (command === "change"){	
-        if (!message.member.hasPermission("ADMINISTRATOR")) return message.reply("Sorry, you can't do it, you are not an admin!");	
-        let messageArray = message.content.split(" ");	
-        let args = messageArray.slice(1);	
-        try{	
-            settings[args[0].toLowerCase()] = args[1].toLowerCase()	
-            fs.writeFileSync(__dirname+"/settings.json", JSON.stringify(settings));	
-            message.reply(args[0]+" changed to "+args[1])	
-
-        } catch{	
-            message.reply("An error occured")	
-        }	
-    }	
-
-    if(command === "stock"){	
-        let stock = []	
-
-        fs.readdir(__dirname, function (err, files) {	
-            if (err) {	
-                return console.log('Unable to scan directory: ' + err);	
-            } 	
-
-            files.forEach(function (file) {	
-                if (!file.includes(".json")) return	
-                if (file.includes('package-lock') || file.includes('package.json') || file.includes('settings.json')) return	
-                stock.push(file) 	
-            });	
-            console.log(stock)	
-
-            stock.forEach(async function (data) {	
-                let acc = await fs.readFileSync(__dirname + "/" + data)	
-                message.channel.send(data.replace(".json","")+" has "+JSON.parse(acc).length+" accounts\n")	
-
-            })	
-
-        });	
-    }	
-
-    if(command === "add") {	
-        if (!message.member.hasPermission("ADMINISTRATOR")) return message.reply("Sorry, you can't do it, you are not an admin!");	
-        let messageArray = message.content.split(" ");	
-        let args = messageArray.slice(1);	
-        var acc = args[1].split(":");	
-
-        fs.readFile(__dirname + "/" + args[0].toLowerCase() + ".json",function(err, data) { 	
-        if(err){	
-            let newnewData = 	
-            [{	
-                "email":acc[0],	
-                "password":acc[1]	
-            }]	
-            try {	
-                fs.writeFileSync(__dirname + "/" + args[0].toLowerCase()+".json", JSON.stringify(newnewData))	
-                message.reply("Service Created and account added!")	
-            } catch {	
-                message.channel.send('**Error** Cannot create service and add that account!')	
-
-            }	
-        }	
-
-        else {	
-            let newData = {"email":acc[0],"password":acc[1]}	
-            data = JSON.parse(data)	
-            try{	
-                data.push(newData)	
-                fs.writeFileSync(__dirname + "/" + args[0].toLowerCase()+".json", JSON.stringify(data))	
-                message.reply("Account added!")	
-            } catch {	
-                message.channel.send('**Error** Cannot add that account!')	
-            }	
-        }	
-    }); 	
-}	
-
-if(command === "help") {	
-    if (!message.member.hasPermission("ADMINISTRATOR")) {	
-        message.channel.send({embed: {	
-        "title": "Commands",	
-        "color": 1127848,	
-        "fields": [	
-          {	
-            "name": prefix+"gen SERVICENAME",	
-            "value": "generate an account of that service."	
-          },	
-          {	
-            "name": prefix+"check SERVICENAME",	
-            "value": "check how many accounts are in that server."	
-          },	
-          {	
-            "name": prefix+"stock",	
-            "value": "check the services and the accounts.."	
-          }	
-        ]	
-      } 	
-
-    })	
-} else {	
-        message.channel.send({embed: {	
-        "title": "Commands",	
-        "color": 1127848,	
-        "fields": [	
-          {	
-            "name": prefix+"gen SERVICENAME",	
-            "value": "generate an account of that service."	
-          },	
-          {	
-            "name": prefix+"check SERVICENAME",	
-            "value": "check how many accounts are in that server."	
-          },	
-          {	
-            "name": prefix+"stock",	
-            "value": "check the services and the accounts.."	
-          },	
-          {	
-            "name": prefix+"add SERVICENAME ACCOUNT",	
-            "value": "add that account to the service, remember to use the syntax username:password"	
-          },	
-          {	
-            "name": prefix+"change OPTION VALUE",	
-            "value": "change prefix or cooldown (option) to a value, for the cooldown remember that the value must be in ms"	
-          }	
-        ]	
-      }	
-
-    })	
-}	
-}	
-})	
+bot.login(config.token);
