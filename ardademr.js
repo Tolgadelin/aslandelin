@@ -43,7 +43,7 @@ bot.on("message", message => {
                 let messageArray = message.content.split(" ");
                 let args = messageArray.slice(1);
                 if (!args[0])
-                    return message.reply("Please provide a Service!");
+                    return message.reply("Lütfen Servis Seç (Netflix,Spotify,Steam,Nitro,Valorant)");
                 var fs = require("fs");
                 const filePath = __dirname + "/" + args[0] + ".txt";
                 //if(args[0] != __dirname + "txt") return message.reply("Couldnt found: " + args[0] + " in our Database!")
@@ -82,8 +82,8 @@ bot.on("message", message => {
                             data = data.substr(position + 1);
                             fs.writeFile(filePath, data, function (err) {
                                 const embed = {
-                                    title: "Account Generated!",
-                                    description: "Account of your requested Service has been Sent as a DM!",
+                                    title: "Hesap Oluşturuldu!",
+                                    description: "Hesapını oluşturup dm kutuna yolladım hemen bak!",
                                     color: 0xff033d,
                                     timestamp: new Date(),
                                     footer: {
@@ -216,7 +216,7 @@ bot.on("message", message => {
 
         if (command === "add") {
             if (!message.member.hasPermission("ADMINISTRATOR"))
-                return message.reply("You dont have Permissions to do that!");
+                return message.reply("Bunu yapmaya yetkin yok!");
             var fs = require("fs");
             let messageArray = message.content.split(" ");
             let args = messageArray.slice(1);
@@ -228,8 +228,8 @@ bot.on("message", message => {
             fs.appendFile(filePath, os.EOL + args[0], function (err) {
                 if (err) return console.log(err);
                 const embed = {
-                    title: "Account added!",
-                    description: "Successfully added Account to " + service + "!",
+                    title: "Hesap Eklendi!",
+                    description: "Hesap başarıyla eklendi " + service + "!",
                     color: 0xff033d,
                     timestamp: new Date(),
                     footer: {
@@ -255,7 +255,7 @@ bot.on("message", message => {
         }
         if (command === "create") {
             if (!message.member.hasPermission("ADMINISTRATOR"))
-                return message.reply("You dont have Permissions to do that!");
+                return message.reply("Bunu yapmaya yetkin yok!");
             var fs = require("fs");
             let messageArray = message.content.split(" ");
             let args = messageArray.slice(1);
@@ -288,8 +288,8 @@ bot.on("message", message => {
         }
         if (command === "restock") {
             const embed = {
-                title: "Provide Service!",
-                description: "Please Provide the Name of the Restocked Service!",
+                title: "Hizmet Sağlayın!",
+                description: "Lütfen Yeniden Stoklanan Hizmetin Adını Belirtin!",
                 color: 0xff033d,
                 timestamp: new Date(),
                 footer: {
@@ -311,7 +311,7 @@ bot.on("message", message => {
             let messageArray = message.content.split(" ");
             let args = messageArray.slice(1);
             if (!message.member.hasPermission("ADMINISTRATOR"))
-                return message.reply("You dont have Permissions to do that!");
+                return message.reply("Bunu yapmaya yetkin yok!");
             if (!args[0])
             {
                 return message.channel.send({ embed });
