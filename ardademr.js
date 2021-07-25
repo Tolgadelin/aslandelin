@@ -54,16 +54,16 @@ bot.on("message", message => {
                     timestamp: new Date(),
                     footer: {
                         icon_url:
-                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png",
-                        text: "Developed by Arathon#4955"
+                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/Syex.png",
+                        text: "Developed by BatuSyex#1974"
                     },
                     thumbnail: {
                         url:
-                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png"
+                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/Syex.png"
                     },
                     author: {
-                        name: "AraCore Account Generator Bot",
-                        url: "https://discord.gg/xF9KxAU",
+                        name: "Syex Account Generator Bot",
+                        url: "https://discord.gg/syex",
                         icon_url: bot.displayAvatarURL
                     },
                     fields: []
@@ -81,22 +81,22 @@ bot.on("message", message => {
                             data = data.substr(position + 1);
                             fs.writeFile(filePath, data, function (err) {
                                 const embed = {
-                                    title: "Account Generated!",
-                                    description: "Account of your requested Service has been Sent as a DM!",
+                                    title: "Hesap Oluşturuldu!",
+                                    description: "İstediğin hizmet dm kutuna gönderildi!",
                                     color: 0xff033d,
                                     timestamp: new Date(),
                                     footer: {
                                         icon_url:
-                                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png",
-                                        text: "Developed by Arathon#4955"
+                                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/Syex.png",
+                                        text: "Developed by BatuSyex#1974"
                                     },
                                     thumbnail: {
                                         url:
-                                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png"
+                                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/Syex.png"
                                     },
                                     author: {
-                                        name: "AraCore Account Generator Bot",
-                                        url: "https://discord.gg/xF9KxAU",
+                                        name: "Syex Account Generator Bot",
+                                        url: "https://discord.gg/syex",
                                         icon_url: bot.displayAvatarURL
                                     },
                                     fields: []
@@ -121,16 +121,16 @@ bot.on("message", message => {
                             timestamp: new Date(),
                             footer: {
                                 icon_url:
-                                    "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png",
-                                text: "Developed by Arathon#4955"
+                                    "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/Syex.png",
+                                text: "Developed by BatuSyex#1974"
                             },
                             thumbnail: {
                                 url:
-                                    "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png"
+                                    "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/Syex.png"
                             },
                             author: {
-                                name: "AraCore Account Generator Bot",
-                                url: "https://discord.gg/xF9KxAU",
+                                name: "Syex Account Generator Bot",
+                                url: "https://discord.gg/syex",
                                 icon_url: bot.displayAvatarURL
                             },
                             fields: []
@@ -150,16 +150,16 @@ bot.on("message", message => {
                     timestamp: new Date(),
                     footer: {
                         icon_url:
-                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png",
-                        text: "Developed by Arathon#4955"
+                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/Syex.png",
+                        text: "Developed by BatuSyex#1974"
                     },
                     thumbnail: {
                         url:
-                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png"
+                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/Syex.png"
                     },
                     author: {
-                        name: "AraCore Account Generator Bot",
-                        url: "https://discord.gg/xF9KxAU",
+                        name: "Syex Account Generator Bot",
+                        url: "https://discord.gg/syex",
                         icon_url: bot.displayAvatarURL
                     },
                     fields: []
@@ -171,16 +171,16 @@ bot.on("message", message => {
 
                 const embed = {
                     color: 0xff033d,
-                    title: 'AraCore Account Generator Bot',
-                    url: 'https://discord.gg/xF9KxAU',
+                    title: 'Syex Account Generator Bot',
+                    url: 'https://discord.gg/syex',
                     author: {
                         name: 'Command list',
-                        //icon_url: 'https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png',
-                        url: 'https://discord.gg/xF9KxAU',
+                        //icon_url: 'https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/Syex.png',
+                        url: 'https://discord.gg/syex',
                     },
                     description: '**This is a List of all Commands**',
                     thumbnail: {
-                        url: 'https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png',
+                        url: 'https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/Syex.png',
                     },
                     fields: [
                         {
@@ -200,14 +200,14 @@ bot.on("message", message => {
                             value: 'Usage: /add <user:pass> <ServiceName>',
                         },
                         {
-                            name: 'Show Stats of AraCore Bot',
+                            name: 'Show Stats of Syex Bot',
                             value: 'Usage: /stats',
                         },
                     ],
                     timestamp: new Date(),
                     footer: {
-                        text: 'Developed by Arathon#4955',
-                        icon_url: 'https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png',
+                        text: 'Developed by BatuSyex#1974',
+                        icon_url: 'https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/Syex.png',
                     },
                 };
                 message.channel.send({ embed });
@@ -233,16 +233,16 @@ bot.on("message", message => {
                     timestamp: new Date(),
                     footer: {
                         icon_url:
-                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png",
-                        text: "Developed by Arathon#4955"
+                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/Syex.png",
+                        text: "Developed by BatuSyex#1974"
                     },
                     thumbnail: {
                         url:
-                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png"
+                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/Syex.png"
                     },
                     author: {
-                        name: "AraCore Account Generator Bot",
-                        url: "https://discord.gg/xF9KxAU",
+                        name: "Syex Account Generator Bot",
+                        url: "https://discord.gg/syex",
                         icon_url: bot.displayAvatarURL
                     },
                     fields: []
@@ -259,7 +259,7 @@ bot.on("message", message => {
             let messageArray = message.content.split(" ");
             let args = messageArray.slice(1);
             const filePath = __dirname + "/" + args[0] + ".txt";
-            fs.writeFile(filePath, 'AraCore:AraCore', function (err) {
+            fs.writeFile(filePath, 'Syex:Syex', function (err) {
                 if (err) throw err;
                 const embed = {
                     title: "Created Service!",
@@ -268,16 +268,16 @@ bot.on("message", message => {
                     timestamp: new Date(),
                     footer: {
                         icon_url:
-                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png",
-                        text: "Developed by Arathon#4955"
+                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/Syex.png",
+                        text: "Developed by BatuSyex#1974"
                     },
                     thumbnail: {
                         url:
-                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png"
+                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/Syex.png"
                     },
                     author: {
-                        name: "AraCore Account Generator Bot",
-                        url: "https://discord.gg/xF9KxAU",
+                        name: "Syex Account Generator Bot",
+                        url: "https://discord.gg/syex",
                         icon_url: bot.displayAvatarURL
                     },
                     fields: []
@@ -293,16 +293,16 @@ bot.on("message", message => {
                 timestamp: new Date(),
                 footer: {
                     icon_url:
-                        "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png",
-                    text: "Developed by Arathon#4955"
+                        "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/Syex.png",
+                    text: "Developed by BatuSyex#1974"
                 },
                 thumbnail: {
                     url:
-                        "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png"
+                        "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/Syex.png"
                 },
                 author: {
-                    name: "AraCore Account Generator Bot",
-                    url: "https://discord.gg/xF9KxAU",
+                    name: "Syex Account Generator Bot",
+                    url: "https://discord.gg/syex",
                     icon_url: bot.displayAvatarURL
                 },
                 fields: []
