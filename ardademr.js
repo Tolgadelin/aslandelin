@@ -25,8 +25,11 @@ bot.on("ready", () => {
     console.log(`Logged in as ${bot.user.tag}!`);
 });
 
+
 bot.on("message", message => {
         if (message.author.bot) return;
+        if(!message.guild) return;
+
         var command = message.content
             .toLowerCase()
             .slice(prefix.length)
