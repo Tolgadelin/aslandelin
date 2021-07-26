@@ -26,7 +26,6 @@ bot.on("ready", () => {
 });
 
 bot.on("message", message => {
-    if (message.channel.id === config.botChannel) { 
         if (message.author.bot) return;
         var command = message.content
             .toLowerCase()
@@ -321,6 +320,6 @@ bot.on("message", message => {
             }
         }
     }
-});
+);
 
 bot.login(process.env.TOKEN);
