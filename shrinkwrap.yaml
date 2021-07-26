@@ -7,6 +7,7 @@ dependencies:
   line-reader: 0.4.0
   moment: 2.29.1
   moment-duration-format: 2.3.2
+  node-fetch: 2.6.1
   os: 0.1.2
   quick.db: 7.1.3
 packages:
@@ -1018,5 +1019,6 @@ specifiers:
   line-reader: ^0.4.0
   moment: ^2.29.1
   moment-duration-format: ^2.3.2
+  node-fetch: ^2.6.1
   os: ^0.1.2
   quick.db: ^7.1.3

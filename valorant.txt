@@ -1,4 +1,3 @@
-borrislean:chowder3000 | Country = TR1 | Game Name = CrashNBurn | Email = khiongvui@yahoo.com | EmailVerified = true | MailAcsess =  | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = [Skinsiz]
 Jaimy1366:Dolfijn46 | Country = EUW1 | Game Name = 5cbc9364-edb4-47dc-ba5b-2ee57234d0f9 | Email = jaimy2012@hotmail.nl | EmailVerified = false | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = []
 drudi69:PIPASforever22 | Country = EUW1 | Game Name = f4a1867d-f428-49d6-88e7-c645b84d10eb | Email = andrerodri200022@hotmail.com | EmailVerified = false | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = []
 enjerson2001:nayladelgado2001 | Country = LA2 | Email = enjersondelgado@hotmail.com | EmailVerified = false | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = []
