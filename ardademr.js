@@ -82,7 +82,7 @@ bot.on("message", message => {
                             fs.writeFile(filePath, data, function (err) {
                                 const embed = {
                                     title: "Hesap Oluşturuldu!",
-                                    description: "Hesapını oluşturup dm kutuna yolladım hemen bak!",
+                                    description: "Hesabını oluşturup dm kutuna yolladım hemen bak!",
                                     color: 0xff033d,
                                     timestamp: new Date(),
                                     footer: {
