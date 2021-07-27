@@ -1,4 +1,3 @@
-CrockPro:Valera2506 | Country = EUN1 | Game Name = d57e0e2c-2f4e-4de5-9c3d-c8956cc2d4cb | Email = 25val25@mail.ru | EmailVerified = false | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = []
 FrEdRiiKo:bleach13 | Country = EUN1 | Game Name = 73dd17a1-1ab4-4fef-82ca-44ae4a5d730a | Email = www.norbi@tlen.pl | EmailVerified = false | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = []
 PGGeshechka:elvira2008 | Country = EUN1 | Game Name = b1529c14-877c-4abf-b61e-4a1b736e12e5 | Email = fara89874@gmail.com | EmailVerified = false | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = []
 BezimiennyBezi:mohaa20 | Country = EUN1 | Game Name = wetronur | Email = bezimienny123_80@o2.pl | EmailVerified = false | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = [Skinsiz]
