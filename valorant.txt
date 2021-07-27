@@ -1,4 +1,3 @@
-DjDuffy783:57ugefez | Country = EUN1 | Game Name = 2e07f496-232e-4e3d-b9b7-21f233385ca2 | Email = yulua.doroxowa@yandex.ru | EmailVerified = false | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = []
 ricardoweich:rikardo12 | Country = BR1 | Game Name = RicardoWeich | Email = ricardogweich2@hotmail.com | EmailVerified = true | MailAcsess =  | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = []
 Alexandiur9:Alexander9 | Country = LA1 | Game Name = Kaneki | Email = Alex@hotmail.com | EmailVerified = false | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = [Skinsiz]
 Pedronexy:pedroh402 | Country = BR1 | Game Name = sadsadsad | Email = phenrique_402@hotmail.com | EmailVerified = false | Toplam Game = 0 | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = [Skinsiz]
