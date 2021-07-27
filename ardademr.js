@@ -45,7 +45,7 @@ bot.on("message", message => {
                 let messageArray = message.content.split(" ");
                 let args = messageArray.slice(1);
                 if (!args[0])
-                    return message.reply("Lütfen Servis Seç (Netflix,Spotify,Steam,Nitro,,Minecraft,Valorant,Blutv,Exxen,Fortnite)");
+                    return message.reply("Lütfen Servis Seç (Spotify,Steam,Nitro,,Minecraft,Valorant,Blutv,Exxen,Fortnite)");
                 var fs = require("fs");
                 const filePath = __dirname + "/" + args[0] + ".txt";
                 //if(args[0] != __dirname + "txt") return message.reply("Couldnt found: " + args[0] + " in our Database!")
