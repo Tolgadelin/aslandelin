@@ -1,5 +1,3 @@
-assasynEcio:assasyn123 | Country = EUN1 | Game Name = Xmer | Email = zawoja123@vp.pl | EmailVerified = false | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = [Skinsiz]
-23LWS:930625lul | Country = EUN1 | Game Name = deden | Email = louisbertelsen@gmail.com | EmailVerified = false | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = []
 lamiX92:speed123 | Country = EUN1 | Game Name = 389a4220-39b2-4987-ba16-82a428465b34 | Email = zolko123@freemail.hu | EmailVerified = false | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = []
 Krecek758:a57ipq | Country = EUN1 | Game Name = 0ec2ef2f-9810-477c-9bcd-dfe6a8025113 | Email = 18wh18@seznam.cz | EmailVerified = false | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = []
 Tutyelo:ricsi11 | Country = EUN1 | Game Name = 516793c1-ddc8-4d15-b2d2-3a30118cab18 | Email = csiga11@hotmail.com | EmailVerified = false | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = []
