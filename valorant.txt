@@ -1,8 +1,3 @@
-Lein47:lex144947 | Country = EUN1 | Game Name = db31b51f-b77f-41e5-b7b1-4c0edf492569 | Email = alekseieroxin94@mail.ru | EmailVerified = false | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = []
-Endrocefalit:blalala1 | Country = EUN1 | Game Name = Olegik2011 | Email = Jenya1290@gmail.com | EmailVerified = false | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = []
-Marsianin42UA:18ja9gs | Country = EUN1 | Game Name = 103156b0-8ac6-4a36-8bfd-e14d5f37570f | Email = denis_stoyan@mail.ru | EmailVerified = false | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = []
-DareMK123:pajoto123 | Country = EUN1 | Game Name = MySawk | Email = sajoti2739@to200.com | EmailVerified = true | MailAcsess =  | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = [Skinsiz]
-DrAntos97:7991Antos | Country = EUN1 | Game Name = agsd | Email = anton.mail.ua@mail.ru | EmailVerified = false | Toplam Game = 0 | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = [Skinsiz]
 BERKE4639:berke4639 | Country = EUN1 | Game Name = Veynes | Email = adanali_berke@hotmail.com | EmailVerified = false | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = [Skinsiz]
 Riona2:251288Fi | Country = EUN1 | Game Name = 22dd9ea9-4f1c-4514-92b4-be0cbe461379 | Email = slepaya1@gmail.com | EmailVerified = false | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = []
 ThreeAngles:wasa55nr69bat | Country = EUN1 | Game Name = YARAKKAFALI | Email = joakim.sporrong@telia.com | EmailVerified = false | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = [Skinsiz]
