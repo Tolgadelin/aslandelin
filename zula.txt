@@ -1,5 +1,3 @@
-samanthatvfr:3jsz0n2 | Level = 1 | Partner = False | Bugün Giriş Yapıldı mı? = False | Email Doğrulama = False
-samix700:cabouin | Level = 1 | Partner = False | Bugün Giriş Yapıldı mı? = False | Email Doğrulama = False
 sanihakim:Sana12345 | Level = 11 | Partner = False | Bugün Giriş Yapıldı mı? = False | Email Doğrulama = False
 savrillault:malika | Level = 1 | Partner = False | Bugün Giriş Yapıldı mı? = False | Email Doğrulama = False
 sceafougeon:sfougeo | Level = 1 | Partner = False | Bugün Giriş Yapıldı mı? = False | Email Doğrulama = False
