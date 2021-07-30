@@ -1,7 +1,3 @@
-ApplezzEU:Westoe15 | Country = EUW1 | Game Name = ApplezEU | Email = Mattyappleby77@gmail.com | EmailVerified = true | MailAcsess =  | Toplam Game = 0 | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = [Skinsiz]
-Alekasuma:m4r1l2s1l2x3s | Country = LA2 | Game Name = BYUNG SOO | Email = alekasuma@gmail.com | EmailVerified = true | MailAcsess =  | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = [Skinsiz]
-TheEvandroLuis:22elas02 | Country = BR1 | Game Name = wdwa | Email = theevandroluis@live.com | EmailVerified = false | Toplam Game = 0 | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = [Skinsiz]
-depresif34@hotmail.com:depresif34 | Country = TR1 | Game Name = KOVBOY MAMİ | Email = depresif22@hotmail.com | EmailVerified = false | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = []
 hanover951:hreyna12 | Country = LA2 | Game Name = b7f69831-e29b-4ad3-a808-21364c150d08 | Email = hreyna_12@hotmail.com | EmailVerified = false | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = []
 xhuseyin47:emre1989 | Country = TR1 | Game Name = 669c22c3-8f80-432e-82e7-27adb8e974be | Email = samfmmm@gmail.com | EmailVerified = false | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = []
 x3llegnd:S071101a | Country = NA1 | Game Name = x3LLEGND | Email = el.idrissi.benme@gmail.com | EmailVerified = true | MailAcsess =  | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = []
