@@ -1,9 +1,3 @@
-uzmankodcu:yunusemre13 | Level = 15 | Zula Partneri = False
-sameddalp:galatasaray53 | Level = 14 | Zula Partneri = False
-merthepkutuk:mert2001 | Level = 11 | Zula Partneri = False
-emrekara1996:karizma1996 | Level = 23 | Zula Partneri = False
-yerenacar08:123456789a | Level = 2 | Zula Partneri = False
-egemenq2005:1e2e3e4e | Level = 3 | Zula Partneri = False
 mertokaya321:metin2lol | Level = 1 | Zula Partneri = False
 sinirzi:Sakarya54 | Level = 1 | Zula Partneri = False
 emrebaranozer:baranozan | Level = 12 | Zula Partneri = False
