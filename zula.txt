@@ -1,12 +1,3 @@
-ebircantr:1993emre | Level = 2 | Zula Partneri = False
-oyunbitkisis:galatasaray1 | Level = 1 | Zula Partneri = False
-stanhazretleri:emre1453 | Level = 11 | Zula Partneri = False
-kerrkeneez:kerem2003 | Level = 1 | Zula Partneri = False
-fatihyeter3444:cimbom44 | Level = 15 | Zula Partneri = False
-mrdncrr:1234emre | Level = 8 | Zula Partneri = False
-oguzcanesen:917H0me123 | Level = 14 | Zula Partneri = False
-emre1146:blue2017 | Level = 1 | Zula Partneri = False
-aardacanpr:11991199a | Level = 7 | Zula Partneri = False
 yunusemre4535:zxasqw31 | Level = 4 | Zula Partneri = False
 kenobi006:ballack350 | Level = 1 | Zula Partneri = False
 oguzcan5225:Oguzcan159874 | Level = 9 | Zula Partneri = False
