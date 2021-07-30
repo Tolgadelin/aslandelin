@@ -1,4 +1,3 @@
-erenkavus:ero12345 | Level = 14 | Zula Partneri = False
 kontarda25:arda2005 | Level = 5 | Zula Partneri = False
 lkereng:lazkopat53 | Level = 9 | Zula Partneri = False
 mert2472ata:anne2010 | Level = 9 | Zula Partneri = False
