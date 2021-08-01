@@ -1,4 +1,3 @@
-abdullah0106:abdullah1996 | Level = 22 | Zula Partneri = False
 mehmetkynusta:mehmet143 | Level = 5 | Zula Partneri = False
 mertsalduz:123456789m | Level = 10 | Zula Partneri = False
 erenbayram25:1e2r3e4n | Level = 2 | Zula Partneri = False
