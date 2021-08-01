@@ -1,6 +1,3 @@
-ardauysal96:a1r2d3a4 | Level = 4 | Zula Partneri = False
-dilaver18:dilaver18 | Level = 7 | Zula Partneri = False
-mvs3475:ardahan3475 | Level = 4 | Zula Partneri = False
 vaporx5454:123123emre | Level = 1 | Zula Partneri = False
 adaliarda:123arda | Level = 1 | Zula Partneri = False
 aliosmansusur:seader123 | Level = 1 | Zula Partneri = False
