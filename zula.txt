@@ -1,4 +1,3 @@
-pasha0658:56285628arda | Level = 12 | Zula Partneri = False
 zivoticb:benendo | Level = 2 | Zula Partneri = False
 omerperit:omer2006 | Level = 3 | Zula Partneri = False
 erensaltsteam:eren1903 | Level = 3 | Zula Partneri = False
