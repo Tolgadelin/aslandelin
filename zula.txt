@@ -1,9 +1,3 @@
-aliosman198194:123456 | Level = 1 | Zula Partneri = False
-emrelinho:emre1234 | Level = 10 | Zula Partneri = False
-aliosmankaya70:hakanzey2009 | Level = 1 | Zula Partneri = False
-ardafake1905:muslera123 | Level = 1 | Zula Partneri = False
-sengokhan4289:123456789sen | Level = 3 | Zula Partneri = False
-protonlego:serkan2346 | Level = 10 | Zula Partneri = False
 erenkayalar01:1qa2ws3ed | Level = 10 | Zula Partneri = False
 lulutrinda:200962 | Level = 1 | Zula Partneri = False
 jcvicari:plrtspa | Level = 1 | Zula Partneri = False
