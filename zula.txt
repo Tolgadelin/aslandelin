@@ -1,5 +1,3 @@
-yigitemrekosa:bjkbjk1903 | Level = 1 | Zula Partneri = False
-cuzzagirl:cozzano | Level = 1 | Zula Partneri = False
 starbook:spc007 | Level = 1 | Zula Partneri = False
 javandee67:omer6767 | Level = 13 | Zula Partneri = False
 furkangungor64:furkan2003 | Level = 1 | Zula Partneri = False
