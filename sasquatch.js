@@ -98,7 +98,7 @@ bot.on("message", message => {
                                             "https://cdn.discordapp.com/emojis/830745640643330048.gif?v=1"
                                     },
                                     author: {
-                                        name: "Syex Account Generator Bot",
+                                        name: "Sasquatch Account Generator Bot",
                                         url: "https://discord.gg/syex",
                                         icon_url: bot.displayAvatarURL
                                     },
@@ -132,7 +132,7 @@ bot.on("message", message => {
                                     "https://cdn.discordapp.com/emojis/830745640643330048.gif?v=1"
                             },
                             author: {
-                                name: "Syex Account Generator Bot",
+                                name: "Sasquatch Account Generator Bot",
                                 url: "https://discord.gg/syex",
                                 icon_url: bot.displayAvatarURL
                             },
@@ -209,7 +209,7 @@ bot.on("message", message => {
                     ],
                     timestamp: new Date(),
                     footer: {
-                        text: 'Developed by BatuSyex#1974',
+                        text: 'Developed by Sasquatch#0666',
                         icon_url: 'https://cdn.discordapp.com/emojis/830745640643330048.gif?v=1',
                     },
                 };
@@ -237,14 +237,14 @@ bot.on("message", message => {
                     footer: {
                         icon_url:
                             "https://cdn.discordapp.com/emojis/830745640643330048.gif?v=1",
-                        text: "Developed by BatuSyex#1974"
+                        text: "Developed by Sasquatch#0666"
                     },
                     thumbnail: {
                         url:
                             "https://cdn.discordapp.com/emojis/830745640643330048.gif?v=1"
                     },
                     author: {
-                        name: "Syex Account Generator Bot",
+                        name: "Sasquatch Account Generator Bot",
                         url: "https://discord.gg/syex",
                         icon_url: bot.displayAvatarURL
                     },
@@ -262,7 +262,7 @@ bot.on("message", message => {
             let messageArray = message.content.split(" ");
             let args = messageArray.slice(1);
             const filePath = __dirname + "/" + args[0] + ".txt";
-            fs.writeFile(filePath, 'Syex:Syex', function (err) {
+            fs.writeFile(filePath, 'Sasquatch:Sasquatch', function (err) {
                 if (err) throw err;
                 const embed = {
                     title: "Servis Oluşturuldu!",
@@ -272,7 +272,7 @@ bot.on("message", message => {
                     footer: {
                         icon_url:
                             "https://cdn.discordapp.com/emojis/830745640643330048.gif?v=1",
-                        text: "Developed by BatuSyex#1974"
+                        text: "Developed by Sasquatch#0666"
                     },
                     thumbnail: {
                         url:
@@ -297,7 +297,7 @@ bot.on("message", message => {
                 footer: {
                     icon_url:
                         "https://cdn.discordapp.com/emojis/830745640643330048.gif?v=1",
-                    text: "Developed by BatuSyex#1974"
+                    text: "Developed by Sasquatch#0666"
                 },
                 thumbnail: {
                     url:
