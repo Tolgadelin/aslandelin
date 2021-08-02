@@ -1,4 +1,3 @@
-ghiq11:metroman30 | Country = NA1 | Game Name = hiqghi | Email = kennbyee25@isd194.org | EmailVerified = true | for = siberdeyiz.com | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = []
 samsamet12:samsamet12 | Country = TR1 | Game Name = xARMEGEDDON | Email = aydemirsamet12@gmail.com | EmailVerified = true | for = siberdeyiz.com | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = [Skinsiz]
 powerlarr42:yasin4242 | Country = TR1 | Game Name = KonyaLe4242 | Email = taha4226@hotmail.com | EmailVerified = false | Toplam Game = 0 | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = [Skinsiz]
 samet0685:05468626041asdf | Country = TR1 | Game Name = FreediShaman | Email = hakanilhan0315@gmail.com | EmailVerified = true | for = siberdeyiz.com | Toplam Game = 0 | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = [Skinsiz]
