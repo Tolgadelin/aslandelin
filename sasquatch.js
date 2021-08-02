@@ -91,7 +91,7 @@ bot.on("message", message => {
                                     footer: {
                                         icon_url:
                                             "https://cdn.discordapp.com/emojis/830745640643330048.gif?v=1",
-                                        text: "Developed by BatuSyex#1974"
+                                        text: "Developed by Sasquatch#0666"
                                     },
                                     thumbnail: {
                                         url:
@@ -125,7 +125,7 @@ bot.on("message", message => {
                             footer: {
                                 icon_url:
                                     "https://cdn.discordapp.com/emojis/830745640643330048.gif?v=1",
-                                text: "Developed by BatuSyex#1974"
+                                text: "Developed by Sasquatch#0666"
                             },
                             thumbnail: {
                                 url:
@@ -154,15 +154,15 @@ bot.on("message", message => {
                     footer: {
                         icon_url:
                             "https://cdn.discordapp.com/emojis/830745640643330048.gif?v=1",
-                        text: "Developed by BatuSyex#1974"
+                        text: "Developed by Sasquatch#0666"
                     },
                     thumbnail: {
                         url:
                             "https://cdn.discordapp.com/emojis/830745640643330048.gif?v=1"
                     },
                     author: {
-                        name: "Syex Account Generator Bot",
-                        url: "https://discord.gg/syex",
+                        name: "Sasquatch Account Generator Bot",
+                        url: "https://discord.gg/6dpeGGC6Ra",
                         icon_url: bot.displayAvatarURL
                     },
                     fields: []
@@ -174,12 +174,12 @@ bot.on("message", message => {
 
                 const embed = {
                     color: 0xff033d,
-                    title: 'Syex Account Generator Bot',
-                    url: 'https://discord.gg/syex',
+                    title: 'Sasquatch Account Generator Bot',
+                    url: 'https://discord.gg/6dpeGGC6Ra',
                     author: {
                         name: 'Komut Listesi',
                         //icon_url: 'https://cdn.discordapp.com/emojis/830745640643330048.gif?v=1',
-                        url: 'https://discord.gg/syex',
+                        url: 'https://discord.gg/6dpeGGC6Ra',
                     },
                     description: '**Bütün Komutların Listesi**',
                     thumbnail: {
@@ -279,7 +279,7 @@ bot.on("message", message => {
                             "https://cdn.discordapp.com/emojis/830745640643330048.gif?v=1"
                     },
                     author: {
-                        name: "Syex Account Generator Bot",
+                        name: "Sasquatch Account Generator Bot",
                         url: "https://discord.gg/syex",
                         icon_url: bot.displayAvatarURL
                     },
@@ -304,7 +304,7 @@ bot.on("message", message => {
                         "https://cdn.discordapp.com/emojis/830745640643330048.gif?v=1"
                 },
                 author: {
-                    name: "Syex Account Generator Bot",
+                    name: "Sasquatch Account Generator Bot",
                     url: "https://discord.gg/syex",
                     icon_url: bot.displayAvatarURL
                 },
