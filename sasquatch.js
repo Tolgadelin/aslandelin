@@ -99,7 +99,7 @@ bot.on("message", message => {
                                     },
                                     author: {
                                         name: "Sasquatch Account Generator Bot",
-                                        url: "https://discord.gg/syex",
+                                        url: "https://discord.gg/nfPMBN52Xb",
                                         icon_url: bot.displayAvatarURL
                                     },
                                     fields: []
@@ -133,7 +133,7 @@ bot.on("message", message => {
                             },
                             author: {
                                 name: "Sasquatch Account Generator Bot",
-                                url: "https://discord.gg/syex",
+                                url: "https://discord.gg/nfPMBN52Xb",
                                 icon_url: bot.displayAvatarURL
                             },
                             fields: []
@@ -245,7 +245,7 @@ bot.on("message", message => {
                     },
                     author: {
                         name: "Sasquatch Account Generator Bot",
-                        url: "https://discord.gg/syex",
+                        url: "https://discord.gg/nfPMBN52Xb",
                         icon_url: bot.displayAvatarURL
                     },
                     fields: []
@@ -280,7 +280,7 @@ bot.on("message", message => {
                     },
                     author: {
                         name: "Sasquatch Account Generator Bot",
-                        url: "https://discord.gg/syex",
+                        url: "https://discord.gg/nfPMBN52Xb",
                         icon_url: bot.displayAvatarURL
                     },
                     fields: []
@@ -305,7 +305,7 @@ bot.on("message", message => {
                 },
                 author: {
                     name: "Sasquatch Account Generator Bot",
-                    url: "https://discord.gg/syex",
+                    url: "https://discord.gg/nfPMBN52Xb",
                     icon_url: bot.displayAvatarURL
                 },
                 fields: []
