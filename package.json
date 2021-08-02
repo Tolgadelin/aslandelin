@@ -1,10 +1,10 @@
 {
-  "name": "ArdaDemr",
+  "name": "BatuSyex",
   "version": "1.0.0",
-  "description": "ArdaDemr Youtube Kanalına Ait VP Generator Bot Altyapısı",
-  "main": "node ardademr.js",
+  "description": "BatuSyex",
+  "main": "node batusyex.js",
   "scripts": {
-    "start": "node ardademr.js"
+    "start": "node batusyex.js"
   },
   "dependencies": {
     "express": "^4.17.1",
