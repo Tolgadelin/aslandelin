@@ -1,4 +1,3 @@
-Exuran:zxc123zxc | Country = EUN1 | Game Name = skfwqhıofa1 | Email = zelencko.denis2011@yandex.ru | EmailVerified = false | Toplam Game = 0 | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = [Skinsiz]
 Shaddar90:1774602a | Country = EUN1 | Game Name = 82b478fe-5a57-4f2a-aef2-01a3e5bc51db | Email = Slava95@gmail.com | EmailVerified = false | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = []
 TheVerticGamer:aezakmi123 | Country = EUN1 | Game Name = aaaaaaaaaaaa31 | Email = adrian_tingstalive.no@live.no | EmailVerified = false | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = [Skinsiz]
 Bonx535:slomsek2 | Country = EUN1 | Game Name = Luced Uğradı | Email = edoffess-82@yopmail.com | EmailVerified = false | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = [Skinsiz]
