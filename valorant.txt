@@ -1,4 +1,3 @@
-PAPIKLAPIK:Vvetall1995 | Country = EUN1 | Game Name = 3131 | Email = papikvetall@yandex.ru | EmailVerified = false | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = [Skinsiz]
 Artes546:74322932a | Country = EUN1 | Game Name = kataslayerr | Email = dmitriy_arte4s@mail.ru | EmailVerified = false | Toplam Game = 0 | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = [Skinsiz]
 Deverax:koliko1337 | Country = EUN1 | Game Name = napipiuduzbir | Email = Zvonimir.smerda@t-com.hr | EmailVerified = false | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = [Skinsiz]
 noorsh123:aA260879 | Country = EUN1 | Game Name = XxNoorSHxX | Email = shatroby6@gmail.com | EmailVerified = true | MailAcsess =  | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = [Skinsiz]
