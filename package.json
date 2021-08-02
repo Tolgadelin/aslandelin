@@ -2,9 +2,9 @@
   "name": "BatuSyex",
   "version": "1.0.0",
   "description": "BatuSyex",
-  "main": "node batusyex.js",
+  "main": "node sasquatch",
   "scripts": {
-    "start": "node batusyex.js"
+    "start": "node sasquatch.js"
   },
   "dependencies": {
     "express": "^4.17.1",

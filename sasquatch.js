@@ -57,16 +57,16 @@ bot.on("message", message => {
                     timestamp: new Date(),
                     footer: {
                         icon_url:
-                            "https://cdn.discordapp.com/emojis/830745640643330048.gif?v=1",
-                        text: "Developed by BatuSyex#1974"
+                            "https://cdn.discordapp.com/attachments/838377389569998898/871815153988014120/Valorant_butcesi_pp.png",
+                        text: "Developed by Sasquatch#0666"
                     },
                     thumbnail: {
                         url:
-                            "https://cdn.discordapp.com/emojis/830745640643330048.gif?v=1"
+                            "https://cdn.discordapp.com/attachments/838377389569998898/871815153988014120/Valorant_butcesi_pp.png"
                     },
                     author: {
-                        name: "Syex Account Generator Bot",
-                        url: "https://discord.gg/syex",
+                        name: "Sasquatch Generator",
+                        url: "https://discord.gg/nJVBYybR9q",
                         icon_url: bot.displayAvatarURL
                     },
                     fields: []
