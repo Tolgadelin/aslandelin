@@ -57,12 +57,12 @@ bot.on("message", message => {
                     timestamp: new Date(),
                     footer: {
                         icon_url:
-                            "https://cdn.discordapp.com/attachments/838377389569998898/871815153988014120/Valorant_butcesi_pp.png",
+                            "https://media.discordapp.net/attachments/838377389569998898/871986361954107402/images.png",
                         text: "Developed by Sasquatch#0666"
                     },
                     thumbnail: {
                         url:
-                            "https://cdn.discordapp.com/attachments/838377389569998898/871815153988014120/Valorant_butcesi_pp.png"
+                            "https://media.discordapp.net/attachments/838377389569998898/871986361954107402/images.png"
                     },
                     author: {
                         name: "Sasquatch Generator",
