@@ -1,9 +1,3 @@
-malo423435:42343561480
-katil2929:emretok29
-salim123:123456789
-patiska97:asd123qwe123
-ajantifb:fb1907fb | Level = 11
-mertsoylu11:aslan2203 | Level = 12
 canbey6789:0211599c | Level = 2
 slashxemir:emiremir1453 | Level = 8
 mmt1489:14891489 | Level = 6
@@ -229,10 +223,6 @@ baykonya:123123
 41karasevda:se41datss | Rütbe = 1 | Ödeme Geçmişi = | Son Alınan Ürün Tarihi =
 41KeRee:metehan41 | Rütbe = 2 | Ödeme Geçmişi = | Son Alınan Ürün Tarihi =
 41asad41:asla123123 | Rütbe = 12 | Ödeme Geçmişi = Başarılı | Son Alınan Ürün Tarihi = 7.2.2018</td>
-<td>Mobile</td>
-<td>2.200 ZA</td>
-<td>7a4915df-da21-4987-8e58-8030db64aa7a</td>
-<td>
 42baba42xx:05354960063 | Rütbe = 2 | Ödeme Geçmişi = | Son Alınan Ürün Tarihi =
 42osman56:42osman42 | Rütbe = 10 | Ödeme Geçmişi = | Son Alınan Ürün Tarihi =
 42harun42:harun343434 | Rütbe = 7 | Ödeme Geçmişi = | Son Alınan Ürün Tarihi =
