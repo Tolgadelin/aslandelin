@@ -1,5 +1,3 @@
-Herkko69:jarvinen1 | Country = EUN1 | Game Name = PoseidoN | Email = ceekku@hotmail.com | EmailVerified = false | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = [Skinsiz]
-Kartoshka113:wonufo9c | Country = EUN1 | Game Name = 9e1fd797-6909-4fae-9bff-ed0e797554e2 | Email = valmaxtor1133@mail.ru | EmailVerified = false | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = []
 orwwwe:990880770or | Country = PBE1 | Game Name = MorBepita | Email = orwwwe@gmail.com | EmailVerified = true | MailAcsess =  | Toplam Game = 56 | Oyun Atılmışmı = Evet | Last Play = 14.7.2021 | Valorant Points = 0 | Radianite = 60 | Skins = [Skinsiz]
 Blayzest:kaelkirjak12 | Country = EUN1 | Game Name = c4ba3887-ed3f-40dc-9cf6-a3b5459a85e4 | Email = dago.siim@gmail.com | EmailVerified = false | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = []
 NipZn4ToR:xkb45sry | Country = EUN1 | Game Name = buanan | Email = burgeraben@energiamail.com | EmailVerified = false | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = [Skinsiz]
