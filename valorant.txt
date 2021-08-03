@@ -1,4 +1,3 @@
-xtreemDK:kia123 | Country = EUN1 | Game Name = fb5d2e3c-e84b-493a-881e-c5be65fad40e | Email = xtreemdk@gmail.com | EmailVerified = false | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = []
 Slayer77y:wowruler1 | Country = EUN1 | Game Name = e9508a7d-5ee8-4313-a83b-9f56c33656ae | Email = agnar_mundal@hotmail.com | EmailVerified = true | MailAcsess =  | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = []
 Herkko69:jarvinen1 | Country = EUN1 | Game Name = PoseidoN | Email = ceekku@hotmail.com | EmailVerified = false | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = [Skinsiz]
 Kartoshka113:wonufo9c | Country = EUN1 | Game Name = 9e1fd797-6909-4fae-9bff-ed0e797554e2 | Email = valmaxtor1133@mail.ru | EmailVerified = false | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = []
