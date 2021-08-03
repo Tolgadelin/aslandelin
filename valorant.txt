@@ -1,5 +1,3 @@
-GodNiXx:venomen1 | Country = EUN1 | Game Name = d3695a9f-9d47-48ac-b4de-7515a0ad0f12 | Email = silencer96@live.com | EmailVerified = false | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = []
-GeorgeEnder:seashepard1 | Country = EUN1 | Game Name = oruspucocu | Email = ZombieLegionArmy@gmail.com | EmailVerified = true | MailAcsess =  | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = [Skinsiz]
 Cr4zyPeter:gdrt3n36 | Country = EUN1 | Game Name = ımde44 | Email = crazypeter68@seznam.cz | EmailVerified = false | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = [Skinsiz]
 FegustinLatt:wwwttt22 | Country = EUN1 | Game Name = RemkeV2 | Email = ratmir.magomedov.2012@mail.ru | EmailVerified = false | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = [Skinsiz]
 xtreemDK:kia123 | Country = EUN1 | Game Name = fb5d2e3c-e84b-493a-881e-c5be65fad40e | Email = xtreemdk@gmail.com | EmailVerified = false | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = []
