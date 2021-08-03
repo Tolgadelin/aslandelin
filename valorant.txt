@@ -1,10 +1,3 @@
-61ts:trabzon61 | Ülke = sau | Sunucu = EUW | Email = cebi.tahir61@hotmail.com | Email Doğrulaması = ✔️ | VP = 0 | Radyanit Puanı = 0
-63ferzan:ahmeter63 | Ülke = tur | Sunucu = 4771 | Email = alayurt_06@hotmail.com | Email Doğrulaması = ✔️ | VP = 0 | Radyanit Puanı = 100
-63feses63:123456789a | Ülke = tur | Sunucu = TR1 | Email = 63feses63@gmail.com | Email Doğrulaması = ✔️ | VP = 0 | Radyanit Puanı = 0
-650apo:apocangum1 | Ülke = deu | Sunucu = TR1 | Email = vayafo@pachilly.com | Email Doğrulaması = ✔️ | VP = 0 | Radyanit Puanı = 0
-64mahmut64:mahmutcangs1 | Ülke = deu | Sunucu = TR1 | Email = blosololrp@mail.com.tr | Email Doğrulaması = ✔️ | VP = 0 | Radyanit Puanı = 0
-66gurkan81:gokhangurkan81 | Ülke = tur | Sunucu = TR1 | Email = lohano@businesssource.net | Email Doğrulaması = ✔️ | VP = 0 | Radyanit Puanı = 0
-67emo67:katix1112 | Ülke = egy | Sunucu = EUW | Email = emir_arm@hotmail.com | Email Doğrulaması = ❌ | VP = 0 | Radyanit Puanı = 0
 67eray1998:67eray1998 | Ülke = tur | Sunucu = TR1 | Email = zorbey6167@outlook.com | Email Doğrulaması = ✔️ | VP = 0 | Radyanit Puanı = 50
 77tunay77:lalaker77 | Ülke = tur | Email = q7fener@hotmail.com | Email Doğrulaması = ❌ | VP = 0 | Radyanit Puanı = 0
 78atakan7878:atakan7878 | Ülke = egy | Sunucu = EUW | Email = atakan.koseo@hotmail.com | Email Doğrulaması = ✔️ | VP = 0 | Radyanit Puanı = 0
