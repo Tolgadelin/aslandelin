@@ -72,7 +72,6 @@ bot.on("message", message => {
                     fields: []
                 };
 
-
                 fs.readFile(filePath, function (err, data) {
                     if (!err) {
                         data = data.toString();
@@ -327,3 +326,6 @@ bot.on("message", message => {
 );
 
 bot.login(process.env.TOKEN);
+
+
+client.user.setPresence({ activity: { type: "PLAYING", name: `Valornt,Steam,BluTV,Netflix ACCOUNT GENERATOR`}, status: 'online' })
