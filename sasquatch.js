@@ -72,6 +72,7 @@ bot.on("message", message => {
                     fields: []
                 };
 
+
                 fs.readFile(filePath, function (err, data) {
                     if (!err) {
                         data = data.toString();
