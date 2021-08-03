@@ -1,4 +1,3 @@
-Slayer77y:wowruler1 | Country = EUN1 | Game Name = e9508a7d-5ee8-4313-a83b-9f56c33656ae | Email = agnar_mundal@hotmail.com | EmailVerified = true | MailAcsess =  | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = []
 Herkko69:jarvinen1 | Country = EUN1 | Game Name = PoseidoN | Email = ceekku@hotmail.com | EmailVerified = false | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = [Skinsiz]
 Kartoshka113:wonufo9c | Country = EUN1 | Game Name = 9e1fd797-6909-4fae-9bff-ed0e797554e2 | Email = valmaxtor1133@mail.ru | EmailVerified = false | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = []
 orwwwe:990880770or | Country = PBE1 | Game Name = MorBepita | Email = orwwwe@gmail.com | EmailVerified = true | MailAcsess =  | Toplam Game = 56 | Oyun Atılmışmı = Evet | Last Play = 14.7.2021 | Valorant Points = 0 | Radianite = 60 | Skins = [Skinsiz]
@@ -2812,6 +2811,21 @@ howeliaa:zwq11qwz22 | Ülke = tur | Sunucu = TR1 | Email = m.mo_300500@hotmail.c
 hsngkdmr:hsngkdmr54 | Ülke = tur | Sunucu = TR1 | Email = hasangkdmr@gmail.com | Email Doğrulaması = ✔️ | VP = 0 | Radyanit Puanı = 0
 hsnkya19033:555812642h | Ülke = tur | Sunucu = TR1 | Email = cansel_ural@hotmail.com | Email Doğrulaması = ❌ | VP = 0 | Radyanit Puanı = 0
 hsnmz63:hsnmz6363 | Ülke = tur | Sunucu = 9716 | Email = hsnmz6363@gmail.com | Email Doğrulaması = ❌ | VP = 0 | Radyanit Puanı = 0
+qwezxc07:qwezxc07 | Ülke = ecu | Sunucu = TR1 | Email = ebemafvcoj@hotmail.com | Email Doğrulaması = ❌ | VP = 0 | Radyanit Puanı = 0
+qwerty854643:13023152b | Ülke = tur | Sunucu = 2717 | Email = berkaybulat@yandex.com | Email Doğrulaması = ❌ | VP = 0 | Radyanit Puanı = 0
+r4mb0889:gazi123456 | Ülke = tur | Sunucu = TR1 | Email = sahin4006-sahin@hotmail.com | Email Doğrulaması = ❌ | VP = 0 | Radyanit Puanı = 0
+r1a2d3o4:r1a2d3o4 | Ülke = irq | Email = r1a2d3o4@abv.bgh | Email Doğrulaması = ❌ | VP = 0 | Radyanit Puanı = 0
+r4efsane:konan4544 | Ülke = tur | Sunucu = TR1 | Email = rusenkaya33@gmail.com | Email Doğrulaması = ✔️ | VP = 0 | Radyanit Puanı = 0
+raaynet:burak15 | Ülke = usa | Sunucu = TR1 | Email = raay.pc@gmail.com | Email Doğrulaması = ❌ | VP = 0 | Radyanit Puanı = 0
+rabturka33:sanane33 | Ülke = mex | Sunucu = TR1 | Email = geronn@danirafsanjani.com | Email Doğrulaması = ✔️ | VP = 0 | Radyanit Puanı = 0
+radoplu:369qqwce | Ülke = tur | Sunucu = TR1 | Email = blosololrp@mail.com.tr | Email Doğrulaması = ✔️ | VP = 0 | Radyanit Puanı = 40
+radness5454:delaredof54 | Ülke = tur | Sunucu = TR1 | Email = radness5454@gmail.com | Email Doğrulaması = ❌ | VP = 0 | Radyanit Puanı = 0
+raffendesign:onurgrkm6534 | Ülke = kor | Sunucu = TR1 | Email = grkm65@gmail.com | Email Doğrulaması = ✔️ | VP = 0 | Radyanit Puanı = 0
+ragnordx:123Zxc123 | Ülke = tur | Email = xragnord@gmail.com | Email Doğrulaması = ❌ | VP = 0 | Radyanit Puanı = 0
+raiex12:raiex1236 | Ülke = rus | Sunucu = TR1 | Email = mevlut_turk17@hotmail.com | Email Doğrulaması = ❌ | VP = 0 | Radyanit Puanı = 0
+rakionlvl70:divinity70 | Ülke = tur | Sunucu = TR1 | Email = metekaya0399@gmail.com | Email Doğrulaması = ✔️ | VP = 0 | Radyanit Puanı = 0
+ramazan1472:ramazan1472 | Ülke = tur | Sunucu = TR1 | Email = vayafo@pachilly.com | Email Doğrulaması = ✔️ | VP = 0 | Radyanit Puanı = 50
+raksy16:136142abc | Ülke = esp | Sunucu = TR1 | Email = m.ates98@hotmail.com | Email Doğrulaması = ❌ | VP = 0 | Radyanit Puanı = 10
 hsniscan1:gelecek11 | Ülke = tur | Sunucu = TR1 | Email = hsniscan1145@gmail.com | Email Doğrulaması = ✔️ | VP = 0 | Radyanit Puanı = 0
 HSNAKPNR:11794652tc | Ülke = tur | Sunucu = TR1 | Email = HASAN.KARAHAN452@gmail.com | Email Doğrulaması = ✔️ | VP = 0 | Radyanit Puanı = 0
 hsyn1314:asdasdasd1 | Ülke = mys | Sunucu = EUW | Email = hsyn_wall@hotmail.com.tr | Email Doğrulaması = ❌ | VP = 0 | Radyanit Puanı = 0
