@@ -1,14 +1,3 @@
-41mekan40:okulum1+ | Ülke = tur | Sunucu = EUW | Email = omer.kilicceken@ogr.konya.edu.tr | Email Doğrulaması = ❌ | VP = 0 | Radyanit Puanı = 0
-41para41:reklesturk41 | Ülke = tur | Sunucu = TR1 | Email = enesata2009@gmail.com | Email Doğrulaması = ✔️ | VP = 0 | Radyanit Puanı = 0
-42harun42:harun343434 | Ülke = tur | Sunucu = 3997 | Email = taylank603@gmail.com | Email Doğrulaması = ✔️ | VP = 0 | Radyanit Puanı = 0
-42enes385:enes385 | Ülke = tur | Sunucu = TR1 | Email = enesakca246@gmail.com | Email Doğrulaması = ✔️ | VP = 0 | Radyanit Puanı = 0
-413burak:manisa159 | Ülke = tur | Sunucu = TR1 | Email = burakhanuz80@gmail.com | Email Doğrulaması = ✔️ | VP = 0 | Radyanit Puanı = 0
-42adil:4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyFTLRNyDmT1a1boZV = 0 | Radyanit Puanı = 0
-42ersedi42:benbir456 | Ülke = tur | Sunucu = TR1 | Email = kasdasmert0990@outlook.com | Email Doğrulaması = ✔️ | VP = 0 | Radyanit Puanı = 35
-43eray43:fener12343 | Ülke = ukr | Sunucu = EUW | Email = fener_12343@windowslive.com | Email Doğrulaması = ✔️ | VP = 0 | Radyanit Puanı = 0
-42byd49123:4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyFTLRNyDmT1a1boZV | VP = 0 | Radyanit Puanı = 0
-42kartall42:emre42li | Ülke = tur | Sunucu = TR1 | Email = sunal_emre@hotmail.com | Email Doğrulaması = ✔️ | VP = 0 | Radyanit Puanı = 0
-44zeki:zk19051997 | Ülke = tur | Sunucu = TR1 | Email = kanka_44_karizma@hotmail.com | Email Doğrulaması = ✔️ | VP = 0 | Radyanit Puanı = 0
 45behnan45:45behnan45 | Ülke = gbr | Sunucu = NA1 | Email = behoreis45@gmail.com | Email Doğrulaması = ✔️ | VP = 0 | Radyanit Puanı = 0
 456852aa:456852aa | Ülke = aus | Sunucu = 2774 | Email = 2523125623@qq.com | Email Doğrulaması = ❌ | VP = 0 | Radyanit Puanı = 0
 48mesut:mesut123321 | Ülke = tur | Sunucu = TR1 | Email = badrozulmo@desoz.com | Email Doğrulaması = ✔️ | VP = 0 | Radyanit Puanı = 0
