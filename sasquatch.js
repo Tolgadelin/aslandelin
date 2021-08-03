@@ -327,5 +327,5 @@ bot.on("message", message => {
 
 bot.login(process.env.TOKEN);
 
-
-client.user.setPresence({ activity: { type: "PLAYING", name: `Valornt,Steam,BluTV,Netflix ACCOUNT GENERATOR`}, status: 'online' })
+client.user.setStatus("online");
+client.user.setActivity("Valorant,Steam,BluTV,Netflix ACCOUNT GENERATOR, { type: "WATCHING"}); //// TYPE - WATCHING , PLAYING , LISTENING gibi değiştirilebilir.
