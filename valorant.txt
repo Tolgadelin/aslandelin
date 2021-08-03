@@ -1,10 +1,3 @@
-abcudafek:334b4893 | Ülke = tun | Sunucu = TR1 | Email = dota.gokhan@gmail.com | Email Doğrulaması = ✔️ | VP = 0 | Radyanit Puanı = 0
-abcstar1003:eg147852e | Ülke = tur | Sunucu = TR1 | Email = kazalakmazalak-@windowslive.com | Email Doğrulaması = ✔️ | VP = 0 | Radyanit Puanı = 0
-abcstar123:eg147852e | Ülke = tur | Sunucu = TR1 | Email = seyhan.temizlik@hotmail.com | Email Doğrulaması = ❌ | VP = 0 | Radyanit Puanı = 0
-abdul1121:abdul1121 | Ülke = tur | Sunucu = TR1 | Email = john_mysterio38@hotmail.com | Email Doğrulaması = ✔️ | VP = 0 | Radyanit Puanı = 0
-abdullah1981:portakal14 | Ülke = tur | Sunucu = TR1 | Email = cmp_west1@hotmail.com | Email Doğrulaması = ✔️ | VP = 0 | Radyanit Puanı = 40
-abdullahcang:sanalika1 | Ülke = tur | Sunucu = TR1 | Email = vladimir.bojanic765@gmail.com | Email Doğrulaması = ✔️ | VP = 0 | Radyanit Puanı = 0
-abone001:123013.a | Ülke = twn | Sunucu = TR1 | Email = youtube.hakan.ucar@hotmail.com | Email Doğrulaması = ❌ | VP = 0 | Radyanit Puanı = 0
 aboten1:5348370741a | Ülke = tun | Sunucu = 7859 | Email = metekutu@hotmail.com | Email Doğrulaması = ❌ | VP = 0 | Radyanit Puanı = 0
 absakalli:2a4h6m8e0t| | Ülke = tur | Sunucu = TR1 | Email = absakalli@hotmail.com | Email Doğrulaması = ✔️ | VP = 0 | Radyanit Puanı = 0
 abuduk0542:gamzeokay0542 | Ülke = tur | Sunucu = TR1 | Email = borum_ays@hotmail.com | Email Doğrulaması = ❌ | VP = 0 | Radyanit Puanı = 0
