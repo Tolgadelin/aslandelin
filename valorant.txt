@@ -1,4 +1,3 @@
-Marsianin42UA:18ja9gs | Country = EUN1 | Game Name = 103156b0-8ac6-4a36-8bfd-e14d5f37570f | Email = denis_stoyan@mail.ru | EmailVerified = false | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = []
 DareMK123:pajoto123 | Country = EUN1 | Game Name = MySawk | Email = sajoti2739@to200.com | EmailVerified = true | MailAcsess =  | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = [Skinsiz]
 DrAntos97:7991Antos | Country = EUN1 | Game Name = agsd | Email = anton.mail.ua@mail.ru | EmailVerified = false | Toplam Game = 0 | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = [Skinsiz]
 BERKE4639:berke4639 | Country = EUN1 | Game Name = Veynes | Email = adanali_berke@hotmail.com | EmailVerified = false | Oyun Atılmışmı = 0 | Valorant Points = 0 | Radianite = 0 | Skins = [Skinsiz]
