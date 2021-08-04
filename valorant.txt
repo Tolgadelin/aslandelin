@@ -1,7 +1,3 @@
-alperela43:jun123123 | Ülke = bgr | Sunucu = EUW | Email = alperilmaz@hotmail.com | Email Doğrulaması = ❌ | VP = 0 | Radyanit Puanı = 0
-alperen395891:48286589314a | Ülke = tur | Sunucu = TR1 | Email = alperen.395891@outlook.com | Email Doğrulaması = ✔️ | VP = 0 | Radyanit Puanı = 0
-alperenacar02:123698745a | Ülke = esp | Sunucu = TR1 | Email = acarberkhan7@gmail.com | Email Doğrulaması = ✔️ | VP = 0 | Radyanit Puanı = 0
-alperenavc123:6529814aa | Ülke = tur | Sunucu = TR1 | Email = alperenavc1903@hotmail.com | Email Doğrulaması = ✔️ | VP = 0 | Radyanit Puanı = 0
 alperen5222:alperen1 | Ülke = deu | Sunucu = TR1 | Email = alperenbro654@outlook.com | Email Doğrulaması = ❌ | VP = 0 | Radyanit Puanı = 0
 alperen3198:alperen06 | Ülke = mar | Sunucu = EUW | Email = alperen_arseven@hotmail.com | Email Doğrulaması = ❌ | VP = 0 | Radyanit Puanı = 0
 alperen261:alperen261 | Ülke = arm | Sunucu = TR1 | Email = alperenkasapoglu42@gmail.com | Email Doğrulaması = ✔️ | VP = 0 | Radyanit Puanı = 40
